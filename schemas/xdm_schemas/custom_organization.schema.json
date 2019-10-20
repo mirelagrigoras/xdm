@@ -5,7 +5,7 @@
       "you may not use this file except in compliance with the License. You may obtain a copy",
       "of the License at https://creativecommons.org/licenses/by/4.0/"
     ],
-    "$id": "https://github.com/mirelagrigoras/xdm/edit/master/schemas/xdm_schemas/company.schema.json",
+    "$id": "https://github.com/mirelagrigoras/xdm/edit/master/schemas/xdm_schemas/custom_company.schema.json",
     "$schema": "http://json-schema.org/draft-06/schema#",
     "title": "Custom Organization",
     "meta:extensible": true,
