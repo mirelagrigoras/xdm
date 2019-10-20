@@ -1,0 +1,38 @@
+{
+    "meta:license": [
+      "Copyright 2017 Adobe Systems Incorporated. All rights reserved.",
+      "This work is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license",
+      "you may not use this file except in compliance with the License. You may obtain a copy",
+      "of the License at https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "$id": "file:///data/work/xdm/bitdefender/company.schema.json",
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "title": "Custom Organization",
+    "meta:extensible": true,
+    "meta:extends": [
+        "file:///data/work/xdm/bitdefender/organization.schema.json#definitions/organization"
+    ],
+    "type": "object",
+    "description": "custom organization",
+    "definitions": {
+      "company": {
+        "properties": {
+          "cui": {
+            "title": "CUI",
+            "type": "string",
+            "description": "CUI"
+          }
+        }
+      }
+    },
+    "allOf": [
+      {
+        "$ref": "file:///data/work/xdm/bitdefender/organization.schema.json#definitions/organization"
+      },
+      {
+        "$ref": "#/definitions/company"
+      }
+    ],
+    "required": ["xdm:legalName"],
+    "meta:status": "experimental"
+  }
