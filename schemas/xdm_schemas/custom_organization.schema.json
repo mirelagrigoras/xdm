@@ -5,12 +5,12 @@
       "you may not use this file except in compliance with the License. You may obtain a copy",
       "of the License at https://creativecommons.org/licenses/by/4.0/"
     ],
-    "$id": "file:///data/work/xdm/bitdefender/company.schema.json",
+    "$id": "https://github.com/mirelagrigoras/xdm/edit/master/schemas/xdm_schemas/company.schema.json",
     "$schema": "http://json-schema.org/draft-06/schema#",
     "title": "Custom Organization",
     "meta:extensible": true,
     "meta:extends": [
-        "file:///data/work/xdm/bitdefender/organization.schema.json#definitions/organization"
+        "https://github.com/mirelagrigoras/xdm/edit/master/schemas/xdm_schemas/organization.schema.json#definitions/organization"
     ],
     "type": "object",
     "description": "custom organization",
@@ -27,7 +27,7 @@
     },
     "allOf": [
       {
-        "$ref": "file:///data/work/xdm/bitdefender/organization.schema.json#definitions/organization"
+        "$ref": "https://github.com/mirelagrigoras/xdm/edit/master/schemas/xdm_schemas/organization.schema.json#definitions/organization"
       },
       {
         "$ref": "#/definitions/company"

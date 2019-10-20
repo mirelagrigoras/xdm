@@ -5,7 +5,7 @@
         "you may not use this file except in compliance with the License. You may obtain a copy",
         "of the License at https://creativecommons.org/licenses/by/4.0/"
     ],
-    "$id": "file:///data/work/xdm/bitdefender/geoshape.schema.json",
+    "$id": "https://github.com/mirelagrigoras/xdm/edit/master/schemas/xdm_schemas/geoshape.schema.json",
     "$schema": "http://json-schema.org/draft-06/schema#",
     "title": "Geo Shape",
     "type": "object",
@@ -27,21 +27,21 @@
                     "title": "Polygon",
                     "type": "array",
                     "items": {
-                        "$ref": "file:///data/work/xdm/bitdefender/geocoordinates.schema.json#definitions/geocoordinates"
+                        "$ref": "https://github.com/mirelagrigoras/xdm/edit/master/schemas/xdm_schemas/geocoordinates.schema.json#definitions/geocoordinates"
                     },
                     "description": "A series of four or more coordinates where the first and final coordinates are identical. In schema.org, this is a plain text. In XDM, it is a structured array instead.",
                     "minItems": 4
                 },
                 "schema:circle": {
                     "title": "Circle",
-                    "$ref": "file:///data/work/xdm/bitdefender/geocircle.schema.json#definitions/geocircle",
+                    "$ref": "https://github.com/mirelagrigoras/xdm/edit/master/schemas/xdm_schemas/geocircle.schema.json#definitions/geocircle",
                     "description": "A circular region with a specific radius centered on a geographic coordinate."
                 },
                 "schema:box": {
                     "title": "Box",
                     "type": "array",
                     "items": {
-                        "$ref": "file:///data/work/xdm/bitdefender/geocoordinates.schema.json#definitions/geocoordinates"
+                        "$ref": "https://github.com/mirelagrigoras/xdm/edit/master/schemas/xdm_schemas/geocoordinates.schema.json#definitions/geocoordinates"
                     },
                     "description": "The area enclosed by the rectangle formed by two coordinates. The first coordinate is the lower corner and the second coordinate is the upper corner of a rectangle.",
                     "minItems": 2,

@@ -5,13 +5,13 @@
     "you may not use this file except in compliance with the License. You may obtain a copy",
     "of the License at https://creativecommons.org/licenses/by/4.0/"
   ],
-  "$id": "file:///data/work/xdm/bitdefender/address.schema.json",
+  "$id": "https://github.com/mirelagrigoras/xdm/edit/master/schemas/xdm_schemas/address.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Address",
   "type": "object",
   "meta:auditable": true,
   "meta:extends": [
-    "file:///data/work/xdm/bitdefender/geo.schema.json#definitions/geo"
+    "https://github.com/mirelagrigoras/xdm/edit/master/schemas/xdm_schemas/geo.schema.json#definitions/geo"
   ],
   "description":
     "A postal address. Address could relate to a person's home, work, preferred store location etc.",
@@ -98,10 +98,10 @@
   },
   "allOf": [
     {
-      "$ref": "file:///data/work/xdm/bitdefender/geo.schema.json#definitions/geo"
+      "$ref": "https://github.com/mirelagrigoras/xdm/edit/master/schemas/xdm_schemas/geo.schema.json#definitions/geo"
     },
     {
-      "$ref": "file:///data/work/xdm/bitdefender/auditable.schema.json"
+      "$ref": "https://github.com/mirelagrigoras/xdm/edit/master/schemas/xdm_schemas/auditable.schema.json"
     },
     {
       "$ref": "#/definitions/address"
